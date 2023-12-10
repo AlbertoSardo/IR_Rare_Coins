@@ -50,7 +50,4 @@ pyenv activate rare_coins_venv
 ```
 
 ### Run the project
-To run the frontend and the backend:
-    ```bash
-    uvicorn main:app --reload
-    ```
+To
