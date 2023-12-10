@@ -49,4 +49,8 @@ In the terminal, ensure that the virtual environment is active (the environment 
 pyenv activate rare_coins_venv
 ```
 
-flask, fastapi, django
+### Run the project
+To run the frontend and the backend:
+    ```bash
+    uvicorn main:app --reload
+    ```
