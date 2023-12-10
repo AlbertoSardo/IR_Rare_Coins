@@ -18,5 +18,5 @@ class DelcampeSpider(scrapy.Spider):
             yield {
                 'Title': title,
                 'Price': price,
-                'Image_URL': image_url
+                'Image': image_url
             }
