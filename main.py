@@ -5,6 +5,7 @@ from fastapi.templating import Jinja2Templates
 from indexer import CustomIndexer
 import json
 
+
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
@@ -22,5 +23,7 @@ async def search(request: Request):
     query = result["query"]
 
     search_results = custom_indexer.custom_document_search(q=query)
+    recommended_coins = custom_indexer.get_similar_coins(q=query)
+
     print(search_results)
-    return {"results": search_results}
+    return {"results": search_results, "recommended_coins": recommended_coins}

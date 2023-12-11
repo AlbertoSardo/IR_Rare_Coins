@@ -3,72 +3,56 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    font-size: 3rem;
-    color: #333;
-    margin-bottom: 30px; 
-}
-
-.container {
+ }
+ 
+ 
+ .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center; /* Centra tutti gli elementi nel contenitore */
-}
-
-.form-control {
-    width: calc(100% - 120px); /* Leggermente più stretto per spaziatura uniforme */
+ }
+ 
+ 
+ .form-control {
+    width: calc(100% - 100px);
     display: inline-block;
     margin-right: 10px;
-    margin-bottom: 10px; /* Aggiunta spaziatura tra l'input e il pulsante */
-}
-
-.btn-primary {
+ }
+ 
+ 
+ .btn-primary {
     width: 100px;
     display: inline-block;
-    margin-bottom: 10px; /* Aggiunta spaziatura tra l'input e il pulsante */
-}
-
-#searchResults {
+ }
+ 
+ 
+ #searchResults {
     margin-top: 20px;
-    display: flex; /* Utilizza Flexbox per allineare le card */
-    flex-wrap: wrap; /* Permette il wrap delle card su più righe */
-    justify-content: space-around; /* Spaziatura uniforme tra le card */
-}
-
-.card {
+ }
+ 
+ 
+ .card {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
     background-color: #fff;
-    width: calc(33% - 20px); /* Card allineate su tre colonne con spaziatura */
-    margin-right: 20px; /* Spaziatura tra le card */
-}
-
-.card:last-child {
-    margin-right: 0; /* Rimuove la spaziatura alla fine dell'ultima card */
-}
-
-.card img {
+ }
+ 
+ 
+ .card img {
     width: 100%;
     height: auto;
-    border-radius: 5px 5px 0 0;
-}
-
-.card-body {
-    padding: 15px; /* Aggiunto spazio interno */
-}
-
-.card-title {
+    border-radius: 5px 0 0 5px;
+ }
+ 
+ 
+ .card-title {
     font-size: 1.2em;
     margin-top: 0;
-    margin-bottom: 10px; /* Aggiunta spaziatura tra il titolo e il testo */
-}
-
-.card-text {
+ }
+ 
+ 
+ .card-text {
     margin-bottom: 0;
-}
+ }
+ 
