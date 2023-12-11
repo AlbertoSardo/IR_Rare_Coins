@@ -3,56 +3,74 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
- }
- 
- 
- .container {
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
- }
- 
- 
- .form-control {
-    width: calc(100% - 100px);
+    text-align: center;
+}
+
+.form-control {
+    width: calc(100% - 120px);
     display: inline-block;
     margin-right: 10px;
- }
- 
- 
- .btn-primary {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
     width: 100px;
     display: inline-block;
- }
- 
- 
- #searchResults {
+    margin-bottom: 10px;
+}
+
+#searchResults {
     margin-top: 20px;
- }
- 
- 
- .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
     background-color: #fff;
- }
- 
- 
- .card img {
+    width: calc(33% - 20px);
+    margin-right: 20px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card img {
     width: 100%;
     height: auto;
-    border-radius: 5px 0 0 5px;
- }
- 
- 
- .card-title {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
     font-size: 1.2em;
     margin-top: 0;
- }
- 
- 
- .card-text {
+    margin-bottom: 10px;
+}
+
+.card-text {
     margin-bottom: 0;
- }
+}
+
  
